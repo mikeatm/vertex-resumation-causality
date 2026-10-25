@@ -1,7 +1,6 @@
 # Causality of spliced GW + local self-energies — code and data
 
-Code and data for "Causality of spliced GW + local self-energies: an exact
-criterion and exact-diagonalization counterexamples" (M. O. Atambo).
+Code and data for "Splicing an exact local self-energy into $GW$: tests on small Hubbard clusters" (M. O. Atambo).
 
 ## Requirements
 - Python ≥ 3.8 with numpy and matplotlib
@@ -53,7 +52,6 @@ python code/converge_splice.py --code causality-check.py --factors 1 2 4 8
 ## Contents
 | Folder | Files |
 |---|---|
-| `paper/` | `main.tex`, `refs.bib`, figures, compiled `main.pdf` |
 | `code/` | `splice_scan.py` (main scan, tail-corrected GW), `make_figures.py`, `indep_check.py` and `indep_pick.py` (independent implementation), `validation.py`, `pick_summary.py`, `converge_splice.py` |
 | `data/` | `splice_scan.jsonl`, `indep_pick.jsonl`, `validation.json` |
 
